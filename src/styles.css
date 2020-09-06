@@ -1,0 +1,212 @@
+body {
+  background: #000;
+}
+.col-12 {
+  padding: 0px;
+}
+.home-cls {
+  padding: 0px !important;
+}
+.slick-slide img {
+  width: 90% !important;
+  border-radius: 5px;
+}
+.header-text {
+  font-size: 64px;
+  color: #fff;
+}
+.header-content {
+  font-size: 20px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.125;
+  letter-spacing: normal;
+  color: #fff;
+  padding-left: 50px;
+  margin: 0 0 16px;
+  position: absolute !important;
+  top: 100px;
+}
+.content {
+  font-family: Helvetica Neue LT W05_45 Light;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  color: #fff;
+  margin: 0;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+  width: 100%;
+  padding: 15px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: white;
+  background: #253544;
+  border-radius: 50%;
+  padding: 6px;
+}
+/* Bottom left text */
+.book-rating {
+  position: relative;
+  bottom: 370px;
+  float: right;
+  right: 15px;
+  border-radius: 3px;
+  color: white;
+  background: #003366;
+  opacity: 0.9;
+  font-size: 16px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+}
+.book-title {
+  position: relative;
+  bottom: 85px;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -0.2px;
+  color: #fff;
+  max-width: 100%;
+  margin: 0 0 7px;
+}
+.book-author {
+  position: absolute;
+  bottom: 65px;
+  padding: 20px;
+  margin: 0 0 7px;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  color: hsla(0, 0%, 100%, 0.9);
+}
+.book-publish {
+  position: absolute;
+  bottom: 85px;
+  padding: 20px;
+  margin: 0 0 7px;
+  font-size: 13px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: 0.4px;
+  color: hsla(0, 0%, 100%, 0.9);
+}
+.zoom {
+  transition: transform 0.2s;
+  margin: 0 auto;
+  -webkit-filter: blur(3px);
+  filter: blur(1px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
+.title {
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+}
+.modal-content {
+  background: #000 !important;
+}
+.modal-header {
+  border: none;
+  font-size: 40px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.6px;
+  color: #c3a572;
+  margin-bottom: 10px;
+  margin-top: 0;
+  text-align: left;
+}
+.close {
+  color: #fff;
+}
+.modal-author {
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fff;
+  margin-bottom: 2px;
+}
+.modal-publisher {
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: 0.43px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+.modal-description {
+  font-family: Helvetica Neue LT W05_45 Light;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: 0.4px;
+  color: hsla(0, 0%, 100%, 0.7);
+  padding: 0 20px 0 40px;
+  word-break: break-word;
+}
+.model-image {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #3f3f40;
+  border-color: #3f3f40;
+}
+.viewModel {
+  display: block !important;
+}
+.hideModel {
+  display: none !important;
+}
